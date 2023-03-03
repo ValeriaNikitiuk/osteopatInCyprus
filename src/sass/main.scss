@@ -1,0 +1,83 @@
+.hero{
+
+    padding-top:10px;
+
+        height: 600px;
+   
+        min-height: 400px;
+        margin: 0 auto;
+
+ 
+}
+
+.main {
+    display: block;
+}
+
+.hero_author{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+      
+}
+
+.hero_author__photo{
+    display: block;
+float: right;
+}
+
+.hero_author__photo__size{
+        border-radius: 50%;
+    border: 32px solid white;
+            margin-left: 160px;
+}
+
+.hero_author-title {
+    
+        text-decoration: none;
+    padding-top: 20px;
+     padding-left: 50px;
+}
+
+.hero_title{
+    margin-bottom: 90px;
+font-weight: 700;
+    font-size: 50px;
+    font-family: 'Comfortaa';
+    color: #64D370;
+}
+
+.hero_title_name{
+font-weight: 700;
+    font-size: 50px;
+    font-family: 'Comfortaa';
+    color: #000000;
+}
+.hero-title-text{
+    background-color: rgba(203, 198, 198, 0.733);
+    height: 50px;
+    width: 900px;
+    margin-top: 40px;
+    border-radius: 40px;
+    padding-left: 25px;
+
+}
+
+.hero-title-text-cont{
+    padding-top: 15px;
+}
+
+// -------кнопка-----
+
+.hero-btn{
+    margin-top: 50px;
+    font-weight: 700;
+        font-size: 24px;
+        font-family: 'Comfortaa';
+    width:300px;
+    height: 80px;
+    border-radius: 40px;
+    color: white;
+    background-color: #64D370;
+    border-color: #64D370;
+}
