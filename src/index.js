@@ -23,32 +23,14 @@ modalClose.addEventListener('click', function() {
 });
 
 
+// ссылки хедера
 
-// скрол кнопка в галерее
 
+var links = document.querySelectorAll('.item-link');
 
-window.onload = () => {
-  window.onscroll = function (e) {
-    let winY = window.scrollY;
-    if (winY > 200) {
-      ProgressBar();
-      scrollbarAnimation();
-      winY = null;
-    }
-  };
-  const scrollBtn = document.querySelector('.isShowBtn')
-  window.onscroll = () => {
-    if (window.scrollY > 200) {
-      scrollBtn.classList.remove('isHiden');
-    } else {
-      scrollBtn.classList.add('isHiden');
-    }
+for (var i = 0; i < links.length; i++) {
+  if (links[i].getAttribute('href') === window.location.pathname) {
+    links[i].classList.add('active');
   }
-
-  scrollBtn.onclick = () => {
-  window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-  }
-
-};
-
+}
 

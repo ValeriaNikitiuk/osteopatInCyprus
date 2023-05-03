@@ -31,12 +31,18 @@ align-items: center;
     text-decoration: none;
 }
 
+
 .menu-item:not(:last-child){
    margin-right: 60px;
 }
 
 .item-link:hover{
     color: #64D370;
+}
+
+.item-link.active{
+    color: rgb(41, 215, 10);
+    font-weight: 600;
 }
 
 .langueges{
