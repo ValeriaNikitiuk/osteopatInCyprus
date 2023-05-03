@@ -2,14 +2,14 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/ValeriaNikitiuk/osteopatincyprus",
+  "homepage": "https://valerianikitiuk.github.io/osteopatincyprus/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /osteopatincyprus"
   },
   "repository": {
     "type": "git",
-    "url": "https://valerianikitiuk.github.io/osteopatincyprus/"
+    "url": "  https://github.com/ValeriaNikitiuk/osteopatincyprus"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
